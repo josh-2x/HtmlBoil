@@ -1,0 +1,59 @@
+[
+    {
+        "id": "tools",
+        "caption": "Tools",
+        "children":
+        [
+            {
+                "id": "html_boil",
+                "caption": "HtmlBoil",
+                "command": "html_boil",
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "HtmlBoil",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/HtmlBoil/README.md"
+                                },
+                                "caption": "README"
+                            },
+                            {
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/HtmlBoil/HtmlBoil.sublime-settings",
+                                    "default": "{\n\t$0\n}\n"
+                                },
+                                "caption": "Settings"
+                            },
+                            {
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/HtmlBoil/meta/Default.sublime-keymap",
+                                    "default": "[\n\t$0\n]\n"
+                                },
+                                "caption": "Key Bindings"
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

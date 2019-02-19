@@ -1,0 +1,34 @@
+{
+    // Wrap
+
+    "hard_wrap": false,
+    "hard_wrap_chars": 67,
+
+    // Links
+
+    "link_before": "\n",
+    "link_after": "\n\n",
+
+    // Image Alt Text
+
+    "alt_skip_pat": "Display images to show real-time content.?",
+    "alt_before": "",
+    "alt_after": "\n",
+
+    // Breaks
+
+    "br_before": "",
+    "br_after": "\n",
+    "div_before": "",
+    "div_after": "\n",
+
+    // Skip
+
+    "skip_inner": [
+        "style",
+        "script",
+        ]
+
+    // $Id: HtmlBoil.sublime-settings 144 2017-10-30 21:38:44Z jmcfarren $
+
+}
